@@ -295,3 +295,44 @@
     background: var(--dark);
     border-color: var(--primary);
 }
+
+/*** BookingSideBar ***/
+.bSidebar{
+    flex:3;
+}
+
+
+/*** BookingForm ***/
+.bookingForm{
+    flex:9;
+}
+.bfFormTitle{
+    display: flex;
+    justify-content: center;
+}
+.add-book-btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 125px;
+}
+
+/*** ViewBookingCard ***/
+.booking-btn{
+    margin-left: 20px;
+    width: 100px;
+}
+.booking-btn2{
+    margin-left: 70px;
+}
+.booking-btn3{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.card-body{
+    margin-top: 10px;
+}
+
+/*** Search Booking ***/
+.search{
+    justify-content: right;
+}
